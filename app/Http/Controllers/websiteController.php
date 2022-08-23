@@ -13,7 +13,7 @@ class websiteController extends Controller
 
     public function index(){
 
-        echo "Hello Riaz";
+        echo "Hello Riazul Islam";
     }
 
     public function about(){
