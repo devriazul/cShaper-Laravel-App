@@ -13,5 +13,6 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('home', [websiteController::class, 'index']);
+Route::get('about', [websiteController::class, 'about']);
 
 require __DIR__.'/auth.php';
